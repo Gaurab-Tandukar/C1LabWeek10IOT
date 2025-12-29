@@ -1,9 +1,9 @@
 #!/bin/bash
 # Simple bash stress test using curl
 
-LB_URL="http://YOUR-LOAD-BALANCER-DNS/"
+LB_URL="demo-alb-1725616835.us-east-1.elb.amazonaws.com"
 DURATION=600      # 10 minutes
-CONCURRENT=50
+CONCURRENT=150
 
 echo "Starting stress test..."
 echo "Target: $LB_URL"
